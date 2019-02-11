@@ -1,0 +1,104 @@
+html {
+  background-color: lightgrey;
+}
+
+nav {
+  background-color: seagreen;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#brand {
+  float: left;
+}
+
+.nav-link {
+  color: lime;
+  text-decoration: none;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.nav-link:hover {
+  color:  cornflowerblue;
+  font-weight: bold;
+}
+
+#brand .nav-link:hover {
+  color: red;
+}
+
+h1 {
+  font-size: 60pt;
+}
+
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 15vw;
+  padding-top: 3em;
+  background: url();
+  background-size: cover;
+}
+
+.header-tag {
+  text-align: center;
+  color: black;
+  font-family: 'Times New Roman', sans-serif;
+  text-shadow: 2px 2px 2px white;
+}
+
+h3.header-tag {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin-top: -30px;
+  font-size: 15px;
+}
+
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 0.4em;
+  box-shadow: 2px 2px 2px black;
+}
+
+#about-content {
+  width: 40vw;
+  float: right;
+}
+
+.main {
+  text-align: center;
+}
+
+#socialbtn a {
+  color: blue;
+  margin: 1em;
+}
+
+#socialbtn a:hover {
+  color: grey;
+}
+
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+
+#about {
+  margin-top: 50px;
+  display: inline-block;
+}
